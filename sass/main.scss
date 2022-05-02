@@ -1,0 +1,39 @@
+@import './vars';
+@import './components/common';
+
+
+
+
+/* GENERAL */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+/* HEADER */
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu-list {
+  display: flex;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between ;
+}
+
+
+
+/* HERO */
+.hero {
+  background-color: pink;
+}

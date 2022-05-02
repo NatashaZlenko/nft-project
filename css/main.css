@@ -1,0 +1,39 @@
+/* GENERAL */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* HERO */
+.hero {
+  background-color: pink;
+}
+/*# sourceMappingURL=main.css.map */
