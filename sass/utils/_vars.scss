@@ -1,10 +1,10 @@
 $colors: (
-  'title-text': #757575,
+  'title-text': #222222,
   'button-text': #FFFFFF,
   'button': #F7859C,
   'background': #FFFFFF,
 );
 
 @function getColor($key) {
-    @return map-get($colors, $key);
+  @return map-get($colors, $key);
 }

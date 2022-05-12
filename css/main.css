@@ -1,4 +1,17 @@
-/* GENERAL */
+body {
+  background-color: #FFFFFF;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+p {
+  margin: 0;
+}
+
 ul {
   list-style: none;
 }
@@ -7,7 +20,11 @@ a {
   text-decoration: none;
 }
 
-/* HEADER */
+.container-header {
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
 .header-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,12 +34,6 @@ a {
           justify-content: space-between;
 }
 
-.header-menu-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .header-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,10 +41,41 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-/* HERO */
+.header-menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+.header-menu-list__item {
+  margin-right: 30px;
+}
+
+.header-menu-list__link {
+  display: block;
+  padding-top: 41px;
+  padding-bottom: 16px;
+  color: #222222;
+}
+
+.header-menu-buttom {
+  padding: 7px 28px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: #F7859C;
+  color: #FFFFFF;
+}
+
 .hero {
-  background-color: pink;
+  position: relative;
+  text-align: center;
+  padding: 90px 0 203px;
 }
 /*# sourceMappingURL=main.css.map */

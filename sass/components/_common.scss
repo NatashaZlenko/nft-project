@@ -1,3 +1,20 @@
+body {
+  background-color: getColor('background');
+  // color: $primaryTextColor;
+  // font-family: $mainFont;
+  // letter-spacing: 0.03em;
+  // font-size: 14px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+p {
+  margin: 0;
+}
 ul {
   list-style: none;
 }

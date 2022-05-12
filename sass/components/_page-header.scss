@@ -1,0 +1,44 @@
+.container-header {
+    margin-left: 65px;
+    margin-right: 65px;
+}
+
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-list {
+        display: flex;
+        margin: 0;
+
+        &__item {
+            margin-right: 30px;
+        }
+
+        &__link {
+            display: block;
+            padding-top: 41px;
+            padding-bottom: 16px;
+            color: getColor('title-text');
+        }
+    }
+
+    &-buttom {
+        padding: 7px 28px;
+        height: 45px;
+
+        border-radius: 10px;
+        border: none;
+        background-color: getColor('button');
+        color: getColor('button-text');
+    }
+
+}
