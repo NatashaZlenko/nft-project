@@ -9,29 +9,39 @@
   justify-content: space-between;
 }
 
+.header-link {
+    display: block;
+}
+
+.header-icon {
+    // justify-content: center;
+    width: 69px;
+    height: 73px;
+}
+
 
 .header-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    &-list {
+    &__list {
         display: flex;
         margin: 0;
-
-        &__item {
-            margin-right: 30px;
-        }
-
-        &__link {
-            display: block;
-            padding-top: 41px;
-            padding-bottom: 16px;
-            color: getColor('title-text');
-        }
     }
 
-    &-buttom {
+    &__item {
+        margin-right: 30px;
+    }
+
+    &__link {
+        display: block;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        color: getColor('title-text');
+    }
+
+    &__button {
         padding: 7px 28px;
         height: 45px;
 

@@ -34,6 +34,15 @@ a {
           justify-content: space-between;
 }
 
+.header-link {
+  display: block;
+}
+
+.header-icon {
+  width: 69px;
+  height: 73px;
+}
+
 .header-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,25 +55,25 @@ a {
           align-items: center;
 }
 
-.header-menu-list {
+.header-menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0;
 }
 
-.header-menu-list__item {
+.header-menu__item {
   margin-right: 30px;
 }
 
-.header-menu-list__link {
+.header-menu__link {
   display: block;
-  padding-top: 41px;
+  padding-top: 16px;
   padding-bottom: 16px;
   color: #222222;
 }
 
-.header-menu-buttom {
+.header-menu__button {
   padding: 7px 28px;
   height: 45px;
   border-radius: 10px;
