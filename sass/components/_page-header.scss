@@ -5,20 +5,13 @@
 
 
 .header-nav {
-  display: flex;
-  justify-content: space-between;
-}
+    display: flex;
+    justify-content: space-between;
 
-.header-link {
-    display: block;
+    &__link {
+        display: block;
+    }
 }
-
-.header-icon {
-    // justify-content: center;
-    width: 69px;
-    height: 73px;
-}
-
 
 .header-menu {
     display: flex;
@@ -41,14 +34,8 @@
         color: getColor('title-text');
     }
 
-    &__button {
-        padding: 7px 28px;
-        height: 45px;
+}
 
-        border-radius: 10px;
-        border: none;
-        background-color: getColor('button');
-        color: getColor('button-text');
-    }
-
+.header-button {
+    @extend %button;
 }

@@ -1,0 +1,9 @@
+%button {
+    padding: 7px 28px;
+    height: 45px;
+
+    border-radius: 10px;
+    border: none;
+    background-color: getColor('button');
+    color: getColor('button-text');
+}

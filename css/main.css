@@ -1,3 +1,12 @@
+.header-button, .hero__button {
+  padding: 7px 28px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: #F7859C;
+  color: #FFFFFF;
+}
+
 body {
   background-color: #FFFFFF;
 }
@@ -34,13 +43,8 @@ a {
           justify-content: space-between;
 }
 
-.header-link {
+.header-nav__link {
   display: block;
-}
-
-.header-icon {
-  width: 69px;
-  height: 73px;
 }
 
 .header-menu {
@@ -73,18 +77,13 @@ a {
   color: #222222;
 }
 
-.header-menu__button {
-  padding: 7px 28px;
-  height: 45px;
-  border-radius: 10px;
-  border: none;
-  background-color: #F7859C;
-  color: #FFFFFF;
-}
-
 .hero {
   position: relative;
   text-align: center;
   padding: 90px 0 203px;
+}
+
+.question-button {
+  border: none;
 }
 /*# sourceMappingURL=main.css.map */
