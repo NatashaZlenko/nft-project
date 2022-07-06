@@ -20,6 +20,10 @@ p {
   margin: 0;
 }
 
+h1 h2 h3 {
+  margin: 0;
+}
+
 ul {
   list-style: none;
 }
@@ -74,8 +78,6 @@ a {
 .hero {
   position: relative;
   text-align: center;
-  height: 800px;
-  width: 100vw;
 }
 
 .hero__man {
@@ -84,10 +86,14 @@ a {
   bottom: 0;
 }
 
+.hero__info {
+  padding-top: 90px;
+  padding-bottom: 203px;
+}
+
 .container-hero {
   position: relative;
-  padding: 0 65px 0 65px;
-  margin: auto;
+  margin: 0 65px 0 65px;
 }
 
 .question-button {
