@@ -1,0 +1,22 @@
+.hero {
+  position: relative;
+  text-align: center;
+  height: 800px;
+  width: 100vw;
+
+  &__button {
+    @extend %button;
+  }
+
+  &__man {
+    position: absolute;
+    display: block;
+    bottom: 0;
+  }
+}
+
+.container-hero {
+  position: relative;
+  padding: 0 65px 0 65px;
+  margin: auto;
+}

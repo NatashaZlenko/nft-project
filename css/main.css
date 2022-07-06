@@ -13,7 +13,6 @@ body {
 
 img {
   display: block;
-  width: 100%;
   height: auto;
 }
 
@@ -27,11 +26,6 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-.container-header {
-  margin-left: 65px;
-  margin-right: 65px;
 }
 
 .header-nav {
@@ -80,7 +74,20 @@ a {
 .hero {
   position: relative;
   text-align: center;
-  padding: 90px 0 203px;
+  height: 800px;
+  width: 100vw;
+}
+
+.hero__man {
+  position: absolute;
+  display: block;
+  bottom: 0;
+}
+
+.container-hero {
+  position: relative;
+  padding: 0 65px 0 65px;
+  margin: auto;
 }
 
 .question-button {
